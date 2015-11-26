@@ -6,10 +6,21 @@
     margin:0px;
     padding:0px;
 }
+body {
+    background:url('lorempixel.jpg') no-repeat center center fixed;
+	background-size:cover;
+    
+}
 #header {
     background-color:#1F3A93;
     color:white;
-    padding:50px;
+    padding:40px;
+	opacity:0.9;
+}
+#header2 {
+    background-color:#446CB3;
+	padding:35px;
+	opacity:0.6;
 }
 #nav {
     line-height:30px;
@@ -17,7 +28,7 @@
     height:300px;
     width:100px;
     float:left;
-    padding:5px;	      
+    padding:50px;	      
 }
 #section {
     width:350px;
@@ -25,40 +36,33 @@
     padding:10px;	 	 
 }
 #footer {
-    background-color:black;
+    background-color:#1F3A93;
     color:white;
     clear:both;
     text-align:center;
-   padding:5px;	 	 
+    padding:5px;
+    opacity:0.9;
+    position:fixed;
+    height:20px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;	
 }
 </style>
 </head>
 <body>
 
-<div id="header">
+
+<div id="header" data-role="header" data-position="fixed">
 <h1>GraphiTech</h1>
 </div>
 
-<div id="nav">
-London<br>
-Paris<br>
-Tokyo<br>
+<div id="header2">
 </div>
 
-<div id="section">
-<h2>London</h2>
-<p>
-London is the capital city of England. It is the most populous city in the United Kingdom,
-with a metropolitan area of over 13 million inhabitants.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-</div>
-
-<div id="footer">
-Copyright © W3Schools.com
+<div id="footer" data-role="footer" data-position="fixed">
+Copyright | TheJustCause99 | https://www.youtube.com/user/MrJustcause99
 </div>
 
 </body>
